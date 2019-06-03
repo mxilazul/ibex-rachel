@@ -74,9 +74,6 @@ var items = [
     ["sep", "Separator", { }],
     ["sep", "Separator", {normalMessage: "+"}],
 
-    ["intro", "Message", {
-      html: { include: "intro.html"}
-    }],
     ["intro", "Form", {
       html: { include: "questionnaire.html"}
     }],
