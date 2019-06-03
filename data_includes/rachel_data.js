@@ -38,7 +38,7 @@ var defaults = [
     },
     "Question", {
         randomOrder: false,
-        as: [['y', 'el'], ['m', 'la']],
+        as: [['z', 'el'], ['m', 'la']],
         presentHorizontally: true,
         timeout: 3000
     },
@@ -77,21 +77,8 @@ var items = [
     ["intro", "Message", {
       html: { include: "intro.html"}
     }],
-
-    ["intro", "Form", {
-      html: { include: "ConsentFormRevised.html"}
-    }],
     ["intro", "Form", {
       html: { include: "questionnaire.html"}
-    }],
-    ["intro", "Form", {
-      html: { include: "profTest1.html"}
-    }],
-    ["intro", "Form", {
-      html: { include: "profTest2.html"}
-    }],
-    ["intro", "Form", {
-      html: { include: "profTest3.html"}
     }],
 
 
