@@ -38,7 +38,7 @@ var defaults = [
     },
     "Question", {
         randomOrder: false,
-        as: [['m', 'el'], ['z', 'la']],
+        as: [['z', 'la'], ['m', 'el']],
         presentHorizontally: true,
         timeout: 3000
     },
